@@ -1,0 +1,12 @@
+# État et plans Terraform (contiennent des données sensibles)
+*.tfstate
+*.tfstate.*
+tfplan
+.terraform/
+# Variables locales (peuvent contenir des secrets)
+*.auto.tfvars
+secrets.tfvars
+# Inventaire généré, fichiers locaux
+ansible/inventory/hosts.yml
+.vault_pass
+.DS_Store
